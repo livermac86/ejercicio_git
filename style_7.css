@@ -1,0 +1,126 @@
+/* Reset básico para eliminar márgenes y padding por defecto */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #f7e5e5; /* Cambia el color hexadecimal por el que desees */
+}
+
+
+/* Estilo para el contenedor principal */
+.container {
+    width: 80%;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+/* Estilos para el encabezado */
+header {
+    background-color: #fbf4f4;
+    padding: 10px 0;
+    text-align: center;
+}
+
+header h1 {
+    font-size: 2em;
+    color: rgb(79, 77, 92);
+}
+
+h1 {
+    font-size: 2em;
+    color: rgb(79, 77, 92);
+}
+
+header p {
+    color: #666;
+}
+
+/* Estilos para el contenido principal */
+main {
+    margin-top: 20px;
+}
+
+main h2, main h3 {
+    font-size: 1.5em;
+    color: #0066cc;
+    margin-bottom: 10px;
+}
+
+main p {
+    line-height: 1.6;
+    color: #444;
+}
+
+/* Estilos para la lista de enlaces */
+ul {
+    list-style-type: none;
+    margin-top: 10px;
+}
+
+ul li {
+    margin-bottom: 5px;
+}
+
+ul li a {
+    color: #0066cc;
+    text-decoration: none;
+}
+
+ul li a:hover {
+    text-decoration: underline;
+}
+
+/* Estilos para la imagen */
+.responsive-img {
+    max-width: 100%; /* La imagen no excederá el ancho del contenedor */
+    width: 300px; /* Establece un ancho fijo */
+    height: 200px; /* Establece una altura fija */
+    border: 2px solid #ddd; /* Borde gris claro alrededor de la imagen */
+    border-radius: 5px; /* Bordes redondeados */
+    margin-top: 10px; /* Espacio superior */
+    object-fit: cover; /* Ajusta cómo la imagen se recorta para llenar el espacio */
+}
+
+
+/* Estilos para la tabla */
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 10px;
+    background-color: #f9f9f9;
+}
+
+table th, table td {
+    border: 1px solid #ddd;
+    padding: 8px;
+    text-align: left;
+}
+
+table th {
+    background-color: #0066cc;
+    color: white;
+}
+
+table tr:nth-child(even) {
+    background-color: #f2f2f2;
+}
+
+/* Estilo específico para las imágenes en la tabla */
+.uni-logo {
+    width: 50px; /* Ancho fijo para las imágenes */
+    height: auto; /* Mantiene la proporción */
+    display: block;
+    margin: 0 auto; /* Centra la imagen dentro de la celda */
+}
+
+/* Estilos para el pie de página */
+footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 10px 0;
+    margin-top: 20px;
+}

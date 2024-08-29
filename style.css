@@ -1,0 +1,31 @@
+p { /* Selector de Tipo */
+    color: blue;
+  }
+  
+.red-text {   /* Selector de Clase */
+    color: red;
+  }
+  
+
+#main-header {/* Selector de Identificador */
+    font-size: 24px;
+  }  
+
+input[type="text"] {/* Selector de Atributo */
+    border: 1px solid black;
+  }
+  
+
+
+/* Selector de atributo */
+a[href="https://uniandes.edu.co/"] {
+    color: #0066cc;        /* Color de texto */
+    font-weight: bold;     /* Texto en negrita */
+    text-decoration: none; /* Quitar subrayado */
+    background-color: #f0f8ff; /* Fondo */
+    padding: 10px 5px;     /* Relleno alrededor del texto */
+}
+
+a[href="https://uniandes.edu.co/"]:hover {
+    background-color: #c61616; /* Cambio de fondo al pasar el mouse */
+}
